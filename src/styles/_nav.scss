@@ -1,0 +1,69 @@
+#lizshigetoshi {
+  position: absolute;
+  background-color: $liz-background-color;
+  text-transform: uppercase;
+  top: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.mapNavigation {
+  color: $button-font-color;
+  background-color: $button-background-color;
+  opacity: $primary-opacity-high;
+  position: absolute;
+  right: 0;
+  z-index: 1;
+  font-weight: $primary-font-weight-light;
+
+  &:hover {
+    cursor: pointer;
+    letter-spacing: 1px;
+    font-weight: $primary-font-weight-medium;
+  }
+}
+
+#homeNavButton {
+  top: 60px;
+
+  &:hover {
+    background: $sacramento-purple;
+    color: $sacramento-black;
+  }
+}
+
+#almaMaterNavButton {
+  top: 100px;
+
+  &:hover {
+    background: $davis-blue;
+    color: $davis-yellow;
+  }
+}
+
+#pastExpNavButton {
+  top: 140px;
+
+  &:hover {
+    background: $eco-green;
+    color: $eco-black;
+  }
+}
+
+#travelNavButton {
+  top: 180px;
+
+  &:hover {
+    background: $travel-grey;
+    color: $travel-black;
+  }
+}
+
+#newAdventureNavButton {
+  top: 220px;
+
+  &:hover {
+    background: $warriors-blue;
+    color: $warriors-yellow;
+  }
+}

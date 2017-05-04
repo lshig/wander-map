@@ -1,0 +1,29 @@
+#map {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.marker {
+  background-color: $marker-background-color;
+  opacity: $primary-opacity-medium;
+  width: $marker-diameter;
+  height: $marker-diameter;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.popup {
+  background-color: $popup-background-color;
+  color: $popup-font-color;
+  font-family: $primary-font-family;
+  font-size: 10pt;
+  font-weight: $primary-font-weight-medium;
+  padding: 8px 10px;
+  margin: 0;
+  line-height: 1.3;
+  text-align: center;
+  opacity: $primary-opacity-medium;
+}

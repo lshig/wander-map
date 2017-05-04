@@ -1,0 +1,59 @@
+{
+  "name": "map-play",
+  "version": "1.0.0",
+  "description": "Dabbling with Mapbox.",
+  "main": "bundle.js",
+  "author": "Liz Shigetoshi",
+  "repository": "https://github.com/lshig/map-play.git",
+  "license": "MIT",
+  "standard": {
+    "parser": "babel-eslint",
+    "globals": [
+      "describe",
+      "context",
+      "before",
+      "beforeEach",
+      "after",
+      "afterEach",
+      "it",
+      "expect",
+      "array",
+      "func"
+    ]
+  },
+  "scripts": {
+    "start": "npm install",
+    "pretest": "standard --fix 'src/**/*'",
+    "test": "jest --no-cache --verbose --coverage",
+    "test:watch": "npm test -- --watch",
+    "build:dev": "webpack",
+    "build:prod": "webpack -p --env production",
+    "server": "webpack-dev-server"
+  },
+  "dependencies": {
+    "mapbox-gl": "*",
+    "prop-types": "*",
+    "react": "*",
+    "react-dom": "*",
+    "react-redux": "*",
+    "redux": "*",
+    "redux-logger": "*",
+    "redux-thunk": "*"
+  },
+  "devDependencies": {
+    "babel-core": "*",
+    "babel-eslint": "*",
+    "babel-loader": "*",
+    "babel-preset-env": "*",
+    "babel-preset-react": "*",
+    "enzyme": "*",
+    "html-webpack-plugin": "*",
+    "jest-cli": "*",
+    "react-dom": "*",
+    "react-test-renderer": "*",
+    "standard": "*",
+    "uglifyjs-webpack-plugin": "*",
+    "webpack": "*",
+    "webpack-dev-server": "*"
+  }
+}
