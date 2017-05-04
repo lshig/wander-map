@@ -1,5 +1,7 @@
 # map-play
 
+Check out the [Live Demo](https://lshig.github.io/map-play)!
+
 A basic set-up to dabble with Mapbox, React, Webpack, and Babel. This set-up stems from `https://github.com/lshig/starter-kit.git`.
 
 ## Basics
@@ -13,7 +15,7 @@ A basic set-up to dabble with Mapbox, React, Webpack, and Babel. This set-up ste
 - Option 2: `npm run server` and open `http://localhost:9000/`
 
 ## Color Credits
-- [Ladies Night 2](http://color-themes.com/?view=index)
+- [Ladies Night 2](http://color-themes.com/?view=theme&id=566065a4ddacef1b003edb63)
 - [UC Davis](http://marketingtoolbox.ucdavis.edu/visual-identity/color.html)
 - [UC Davis: Energy Conservation Office](https://ceed.ucdavis.edu)
 - [Sacramento Kings](http://teamcolorcodes.com/sacramento-kings-color-codes/)
