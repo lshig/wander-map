@@ -4,17 +4,17 @@ import mapboxgl from 'mapbox-gl'
 import {
   mapToken,
   mapStyle,
-  markersWithPopups,
-  markersUnionCenter,
-  markersUnion
+  lifePopupMarkers,
+  travelMarkersUnionLocation,
+  travelMarkersUnion
 } from './constants'
 export default class Interactive extends Component {
   constructor (props) {
     super(props)
     this.state = {
       map: null,
-      life: [],
-      travel: []
+      popupMarkers: [],
+      markersUnon: []
     }
     this.goToLocation = this.goToLocation.bind(this)
   }
@@ -24,14 +24,14 @@ export default class Interactive extends Component {
     const map = new mapboxgl.Map({
       container: 'map',
       style: mapStyle,
-      center: markersWithPopups.filter((item) => { return item.id === 'homeNavButton' })[0].location,
+      center: lifePopupMarkers.filter((item) => { return item.id === 'homeNavButton' })[0].location,
       bearing: 0,
       pitch: 0,
       zoom: 13
     })
 
     // CREATE MARKERS AND POPUPS
-    const lifeMarkers = markersWithPopups.map((item) => {
+    const popupMarkers = lifePopupMarkers.map((item) => {
       const primaryMarker = document.createElement('div')
       primaryMarker.className = 'marker'
 
@@ -55,7 +55,7 @@ export default class Interactive extends Component {
     })
 
     // CREATE MARKERS UNION WITH NO POPUPS
-    const travelMarkers = markersUnion.map((location) => {
+    const markersUnion = travelMarkersUnion.map((location) => {
       const secondaryMarker = document.createElement('div')
       secondaryMarker.className = 'marker'
       return new mapboxgl.Marker(secondaryMarker, {offset: [-15, -15]})
@@ -66,18 +66,18 @@ export default class Interactive extends Component {
     // SET STATE
     this.setState({
       map: map,
-      life: lifeMarkers,
-      travel: travelMarkers
+      mapPopupMarkers: popupMarkers,
+      mapMarkersUnion: markersUnion
     })
   }
   goToLocation (id, hasPopup) {
     // CLEAR ALL POPUPS
-    for (let i = 0; i < this.state.life.length; i++) {
-      this.state.life[i].popup.remove()
+    for (let i = 0; i < this.state.mapPopupMarkers.length; i++) {
+      this.state.mapPopupMarkers[i].popup.remove()
     }
     // BASED ON ID, FIND MAP CENTER LOCATION
     if (hasPopup) {
-      const flyToLocation = this.state.life.filter((item) => {
+      const flyToLocation = this.state.mapPopupMarkers.filter((item) => {
         const foundId = item.id === id
         if (foundId) {
           item.popup.addTo(this.state.map)
@@ -95,7 +95,7 @@ export default class Interactive extends Component {
         zoom: 3,
         speed: 0.6,
         curve: 1,
-        center: markersUnionCenter
+        center: travelMarkersUnionLocation
       })
     }
   }

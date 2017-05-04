@@ -19,6 +19,11 @@ const config = {
     filename: 'dist/bundle.js',
     path: __dirname
   },
+  resolve: {
+    alias: {
+      'mapbox-gl': path.resolve('./node_modules/mapbox-gl/dist/mapbox-gl.js')
+    }
+  },
   module: {
     rules: [
       {
@@ -34,10 +39,10 @@ const config = {
           presets: ['env']
         }
       }
-    ]
+    ],
+    noParse: /(mapbox-gl)\.js$/
   },
   performance: {
-    // hints: 'warning',
     maxAssetSize: 200000,
     maxEntrypointSize: 400000
   },

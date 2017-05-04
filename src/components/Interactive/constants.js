@@ -1,7 +1,7 @@
 export const mapToken = 'pk.eyJ1IjoibGl6c2hpZyIsImEiOiJjajI2aWRwbHcwMGdwMnFvNWdyZzZkMnoxIn0.ijXLCu9J588oipJzYGOppg'
 export const mapStyle = 'mapbox://styles/lizshig/cj29cralq000p2rpk8txr8ay5'
 // these markers have their own popup
-export const markersWithPopups = [{
+export const lifePopupMarkers = [{
   id: 'homeNavButton',
   location: [-121.493225, 38.576514],
   anchorPosition: 'left',
@@ -24,8 +24,8 @@ export const markersWithPopups = [{
 }]
 
 // these markers are united with no popups
-export const markersUnionCenter = [113.437591, 15.549823]
-export const markersUnion = [
+export const travelMarkersUnionLocation = [113.437591, 15.549823]
+export const travelMarkersUnion = [
   [-3.568016, 40.483561],
   [-119.769251, 39.172964],
   [-119.976369, 38.944978],
