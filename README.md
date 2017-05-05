@@ -16,10 +16,6 @@ A basic set-up to dabble with Mapbox, React, Webpack, and Babel. This set-up ste
 
 ## Color Credits
 - [Ladies Night 2](http://color-themes.com/?view=theme&id=566065a4ddacef1b003edb63)
-- [UC Davis](http://marketingtoolbox.ucdavis.edu/visual-identity/color.html)
-- [UC Davis: Energy Conservation Office](https://ceed.ucdavis.edu)
-- [Sacramento Kings](http://teamcolorcodes.com/sacramento-kings-color-codes/)
-- [Golden State Warriors](http://teamcolorcodes.com/golden-state-warriors-color-codes/)
 
 Thanks for stopping by to see one of the things I like to experiment on!
 

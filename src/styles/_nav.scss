@@ -20,50 +20,26 @@
     cursor: pointer;
     letter-spacing: 1px;
     font-weight: $primary-font-weight-medium;
+    color: $button-hover-font-color;
   }
 }
 
 #homeNavButton {
   top: 60px;
-
-  &:hover {
-    background: $sacramento-purple;
-    color: $sacramento-black;
-  }
 }
 
 #almaMaterNavButton {
   top: 100px;
-
-  &:hover {
-    background: $davis-blue;
-    color: $davis-yellow;
-  }
 }
 
 #pastExpNavButton {
   top: 140px;
-
-  &:hover {
-    background: $eco-green;
-    color: $eco-black;
-  }
 }
 
 #travelNavButton {
   top: 180px;
-
-  &:hover {
-    background: $travel-grey;
-    color: $travel-black;
-  }
 }
 
 #newAdventureNavButton {
   top: 220px;
-
-  &:hover {
-    background: $warriors-blue;
-    color: $warriors-yellow;
-  }
 }

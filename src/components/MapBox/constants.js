@@ -1,15 +1,43 @@
 export const mapToken = 'pk.eyJ1IjoibGl6c2hpZyIsImEiOiJjajI2aWRwbHcwMGdwMnFvNWdyZzZkMnoxIn0.ijXLCu9J588oipJzYGOppg'
 export const mapStyle = 'mapbox://styles/lizshig/cj29cralq000p2rpk8txr8ay5'
+
+export const navButtonOptions = [{
+  id: 'homeNavButton',
+  className: 'mapNavigation',
+  hasPopup: true,
+  label: '916 born-n-raised'
+},{
+  id: 'almaMaterNavButton',
+  className: 'mapNavigation',
+  hasPopup: true,
+  label: 'earned a BS degree'
+},{
+  id: 'pastExpNavButton',
+  className: 'mapNavigation',
+  hasPopup: true,
+  label: 'developed web apps'
+},{
+  id: 'travelNavButton',
+  className: 'mapNavigation',
+  hasPopup: false,
+  label: 'explored cultures'
+},{
+  id: 'newAdventureNavButton',
+  className: 'mapNavigation',
+  hasPopup: true,
+  label: 'ready for more!'
+}]
+
 // these markers have their own popup
 export const lifePopupMarkers = [{
   id: 'homeNavButton',
   location: [-121.493225, 38.576514],
-  anchorPosition: 'left',
+  anchorPosition: 'top',
   text: '#SacramentoProud'
 }, {
   id: 'almaMaterNavButton',
   location: [-121.754749, 38.536998],
-  anchorPosition: 'right',
+  anchorPosition: 'top',
   text: 'UC Davis: Department of Computer Science'
 }, {
   id: 'pastExpNavButton',
@@ -24,7 +52,7 @@ export const lifePopupMarkers = [{
 }]
 
 // these markers are united with no popups
-export const travelMarkersUnionLocation = [113.437591, 15.549823]
+export const travelMarkersUnionLocation = [112.417591, 13.529823]
 export const travelMarkersUnion = [
   [-3.568016, 40.483561],
   [-119.769251, 39.172964],

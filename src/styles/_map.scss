@@ -13,6 +13,10 @@
   height: $marker-diameter;
   border-radius: 50%;
   cursor: pointer;
+  &.disabled {
+    background-color: $marker-disable-background-color;
+    cursor: default;
+  }
 }
 
 .popup {

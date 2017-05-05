@@ -35,24 +35,28 @@ $warriors-blue:         #006bb6; // rgb(0,107,182)
 $warriors-yellow:       #fdb927; // rgb(253,185,39)
 
 // globals
-$min-width-px: 450px;
-$min-height-px: 650px;
+$min-width-px: 330px;
+$min-height-px: 530px;
 $primary-font-family: 'Roboto Mono', monospace;
 $primary-font-weight-light: 300;
 $primary-font-weight-medium: 500;
 $primary-opacity-high: 0.85;
 $primary-opacity-medium: 0.7;
+$primary-opacity-low: 0.5;
 $link-font-color: $theme-black;
 $button-font-color: $sacramento-white;
+$button-hover-font-color: $theme-pink;
 $button-background-color: $theme-black;
 $marker-diameter: 30px;
 $marker-background-color: $theme-yellow-dark;
+$marker-disable-background-color: $theme-blue-dark;
 $popup-background-color: $theme-yellow-dark;
 $popup-font-color: $theme-black;
 $popup-achor-background-color: $theme-black;
 $popup-max-width-px: 200px;
 
 // specifics
+// DIN Offc Pro, Arial Unicode MS
 $liz-background-color: $theme-yellow-dark;
 
 @import 'base','modify','nav','map';

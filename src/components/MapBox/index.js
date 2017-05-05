@@ -1,14 +1,15 @@
-'use strict'
-import React, { Component } from 'react'
+import React, {Component} from 'react'
+import NavButton from '../NavButton'
 import mapboxgl from 'mapbox-gl'
 import {
   mapToken,
   mapStyle,
   lifePopupMarkers,
   travelMarkersUnionLocation,
-  travelMarkersUnion
+  travelMarkersUnion,
+  navButtonOptions
 } from './constants'
-export default class Interactive extends Component {
+export default class MapBox extends Component {
   constructor (props) {
     super(props)
     this.state = {
@@ -21,10 +22,10 @@ export default class Interactive extends Component {
   componentDidMount () {
     // CREATE MAP
     mapboxgl.accessToken = mapToken
-    const map = new mapboxgl.Map({
+    var map = new mapboxgl.Map({
       container: 'map',
       style: mapStyle,
-      center: lifePopupMarkers.filter((item) => { return item.id === 'homeNavButton' })[0].location,
+      center: lifePopupMarkers.filter((item) => {return item.id === 'homeNavButton'})[0].location,
       bearing: 0,
       pitch: 0,
       zoom: 13
@@ -57,7 +58,7 @@ export default class Interactive extends Component {
     // CREATE MARKERS UNION WITH NO POPUPS
     const markersUnion = travelMarkersUnion.map((location) => {
       const secondaryMarker = document.createElement('div')
-      secondaryMarker.className = 'marker'
+      secondaryMarker.className = 'marker disabled'
       return new mapboxgl.Marker(secondaryMarker, {offset: [-15, -15]})
         .setLngLat(location)
         .addTo(map)
@@ -102,36 +103,18 @@ export default class Interactive extends Component {
   render () {
     return (
       <div>
-        <h3
-          id='homeNavButton'
-          className='mapNavigation'
-          onClick={(e) => { this.goToLocation(e.target.id, true) }}>
-          916 born-n-raised
-        </h3>
-        <h3
-          id='almaMaterNavButton'
-          className='mapNavigation'
-          onClick={(e) => { this.goToLocation(e.target.id, true) }}>
-          earned a BS degree
-        </h3>
-        <h3
-          id='pastExpNavButton'
-          className='mapNavigation'
-          onClick={(e) => { this.goToLocation(e.target.id, true) }}>
-          developed web apps
-        </h3>
-        <h3
-          id='travelNavButton'
-          className='mapNavigation'
-          onClick={(e) => { this.goToLocation(e.target.id, false) }}>
-          explored cultures
-        </h3>
-        <h3
-          id='newAdventureNavButton'
-          className='mapNavigation'
-          onClick={(e) => { this.goToLocation(e.target.id, true) }}>
-          ready for more!
-        </h3>
+        {
+          navButtonOptions.map((item, index) => {
+            return (
+              <NavButton
+                key = {index}
+                id = {item.id}
+                className = {item.className}
+                onClick = {(e) => {this.goToLocation(e.target.id, item.hasPopup)}}
+                label = {item.label} />
+            )
+          })
+        }
         <div id='map' />
       </div>
     )

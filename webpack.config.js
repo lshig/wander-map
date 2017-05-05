@@ -8,7 +8,7 @@ const HTMLWebpackPluginConfig = new HTMLWebpackPlugin({
 })
 const VendorChunkPluginConfig = new webpack.optimize.CommonsChunkPlugin({
   name: 'vendor',
-  filename: 'dist/vendor.js',
+  filename: 'dest/vendor.js',
   minChunks: function (module) {
     return module.context && module.context.indexOf('node_modules') !== -1
   }
@@ -16,13 +16,8 @@ const VendorChunkPluginConfig = new webpack.optimize.CommonsChunkPlugin({
 const config = {
   entry: path.join(__dirname, '/src/index.js'),
   output: {
-    filename: 'dist/bundle.js',
+    filename: 'dest/bundle.js',
     path: __dirname
-  },
-  resolve: {
-    alias: {
-      'mapbox-gl': path.resolve('./node_modules/mapbox-gl/dist/mapbox-gl.js')
-    }
   },
   module: {
     rules: [
