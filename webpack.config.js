@@ -14,15 +14,20 @@ const VendorChunkPluginConfig = new webpack.optimize.CommonsChunkPlugin({
   }
 })
 const config = {
-  entry: path.join(__dirname, '/src/index.js'),
+  entry: {
+    'dest/bundle.js': './src/index.jsx'
+  },
   output: {
     filename: 'dest/bundle.js',
     path: __dirname
   },
+  resolve: {
+    extensions: ['.js','.jsx']
+  },
   module: {
     rules: [
       {
-        test: /\.js?$/,
+        test: /\.jsx?$/,
         include: [
           path.resolve(__dirname, 'src')
         ],

@@ -6,22 +6,22 @@ export const navButtonOptions = [{
   className: 'mapNavigation',
   hasPopup: true,
   label: '916 born-n-raised'
-},{
+}, {
   id: 'almaMaterNavButton',
   className: 'mapNavigation',
   hasPopup: true,
   label: 'earned a BS degree'
-},{
+}, {
   id: 'pastExpNavButton',
   className: 'mapNavigation',
   hasPopup: true,
   label: 'developed web apps'
-},{
+}, {
   id: 'travelNavButton',
   className: 'mapNavigation',
   hasPopup: false,
   label: 'explored cultures'
-},{
+}, {
   id: 'newAdventureNavButton',
   className: 'mapNavigation',
   hasPopup: true,
@@ -46,8 +46,8 @@ export const lifePopupMarkers = [{
   text: 'UC Davis: Energy Conservation Office'
 }, {
   id: 'newAdventureNavButton',
-  location: [-122.413682, 37.775408],
-  anchorPosition: 'top',
+  location: [-122.399834, 37.788420],
+  anchorPosition: 'bottom',
   text: 'Hello, World!'
 }]
 

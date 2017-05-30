@@ -1,4 +1,4 @@
-import React, {Component} from 'react'
+import React, { Component } from 'react'
 import NavButton from '../NavButton'
 import mapboxgl from 'mapbox-gl'
 import {
@@ -25,29 +25,30 @@ export default class MapBox extends Component {
     var map = new mapboxgl.Map({
       container: 'map',
       style: mapStyle,
-      center: lifePopupMarkers.filter((item) => {return item.id === 'homeNavButton'})[0].location,
+      center: lifePopupMarkers.filter(item => {
+        return item.id === 'homeNavButton'
+      })[0].location,
       bearing: 0,
       pitch: 0,
       zoom: 13
     })
 
     // CREATE MARKERS AND POPUPS
-    const popupMarkers = lifePopupMarkers.map((item) => {
+    const popupMarkers = lifePopupMarkers.map(item => {
       const primaryMarker = document.createElement('div')
       primaryMarker.className = 'marker'
-
-      const div = document.createElement('div')
-      div.className = 'popup ' + item.className
-      div.innerHTML = item.text
+      const popupContent = document.createElement('div')
+      popupContent.className = 'popup'
+      popupContent.innerHTML = item.text
       const primaryMarkerPopup = new mapboxgl.Popup({
         closeButton: false,
         anchor: item.anchorPosition,
         offset: 15})
-          .setDOMContent(div)
+          .setDOMContent(popupContent)
       return {
         id: item.id,
         location: item.location,
-        marker: new mapboxgl.Marker(primaryMarker, {offset: [-15, -15]})
+        marker: new mapboxgl.Marker(primaryMarker, {offset:[-15, -15]})
           .setLngLat(item.location)
           .setPopup(primaryMarkerPopup)
           .addTo(map),
@@ -56,10 +57,10 @@ export default class MapBox extends Component {
     })
 
     // CREATE MARKERS UNION WITH NO POPUPS
-    const markersUnion = travelMarkersUnion.map((location) => {
+    const markersUnion = travelMarkersUnion.map(location => {
       const secondaryMarker = document.createElement('div')
       secondaryMarker.className = 'marker disabled'
-      return new mapboxgl.Marker(secondaryMarker, {offset: [-15, -15]})
+      return new mapboxgl.Marker(secondaryMarker, {offset:[-15, -15]})
         .setLngLat(location)
         .addTo(map)
     })
@@ -78,7 +79,7 @@ export default class MapBox extends Component {
     }
     // BASED ON ID, FIND MAP CENTER LOCATION
     if (hasPopup) {
-      const flyToLocation = this.state.mapPopupMarkers.filter((item) => {
+      const flyToLocation = this.state.mapPopupMarkers.filter(item => {
         const foundId = item.id === id
         if (foundId) {
           item.popup.addTo(this.state.map)
@@ -104,18 +105,19 @@ export default class MapBox extends Component {
     return (
       <div>
         {
-          navButtonOptions.map((item, index) => {
+          navButtonOptions.map((item,index) => {
             return (
               <NavButton
-                key = {index}
-                id = {item.id}
-                className = {item.className}
-                onClick = {(e) => {this.goToLocation(e.target.id, item.hasPopup)}}
-                label = {item.label} />
+                key={index}
+                id={item.id}
+                className={item.className}
+                onClick={e => {this.goToLocation(e.target.id, item.hasPopup)}}
+                label={item.label}
+              />
             )
           })
         }
-        <div id='map' />
+        <div id="map" />
       </div>
     )
   }

@@ -23,7 +23,7 @@
   },
   "scripts": {
     "start": "npm install",
-    "pretest": "standard --fix 'src/**/*'",
+    "pretest": "standard --fix 'src/**/*.js'",
     "test": "jest --no-cache --verbose --coverage",
     "test:watch": "npm test -- --watch",
     "build:dev": "webpack",
