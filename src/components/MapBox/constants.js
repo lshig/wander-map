@@ -48,7 +48,7 @@ export const lifePopupMarkers = [{
   id: 'newAdventureNavButton',
   location: [-122.399834, 37.788420],
   anchorPosition: 'bottom',
-  text: 'Hello, World!'
+  text: 'Hello, Mapbox!'
 }]
 
 // these markers are united with no popups

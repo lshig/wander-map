@@ -9,7 +9,7 @@ import {
   travelMarkersUnion,
   navButtonOptions
 } from './constants'
-export default class MapBox extends Component {
+export default class Mapbox extends Component {
   constructor (props) {
     super(props)
     this.state = {
