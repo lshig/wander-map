@@ -1,8 +1,10 @@
 # map-play
 
-Check out the [Live Demo](https://lshig.github.io/map-play)!
+Check out the [live demo](https://lshig.github.io/map-play)!
 
-A basic set-up to dabble with Mapbox, React, Webpack, and Babel. This set-up stems from `https://github.com/lshig/starter-kit.git`.
+## Credits
+
+This project is using a [template Mapbox designer style](https://www.mapbox.com/studio/) called North Star.
 
 ## Basics
 - Install [Node.js and npm](https://nodejs.org/en/)
@@ -13,9 +15,6 @@ A basic set-up to dabble with Mapbox, React, Webpack, and Babel. This set-up ste
   - Build `npm run build:dev` for debugging
   - Build `npm run build:prod` for production-ish
 - Option 2: `npm run server` and open `http://localhost:9000/`
-
-## Color Credits
-- [Ladies Night 2](http://color-themes.com/?view=theme&id=566065a4ddacef1b003edb63)
 
 Thanks for stopping by to see one of the things I like to experiment on!
 
