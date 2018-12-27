@@ -19,19 +19,19 @@ export const navigationButtons = [
     id: 'pastExpNavigationButton',
     className: 'mapNavigation',
     hasPopup: true,
-    label: 'built some web apps'
-  },
-  {
-    id: 'currentExpNavigationButton',
-    className: 'mapNavigation',
-    hasPopup: true,
-    label: 'builds more web apps'
+    label: 'built web apps'
   },
   {
     id: 'travelNavigationButton',
     className: 'mapNavigation',
     hasPopup: false,
-    label: 'explores cultures'
+    label: 'explored cultures'
+  },
+  {
+    id: 'currentExpNavigationButton',
+    className: 'mapNavigation',
+    hasPopup: true,
+    label: 'builds apps and APIs'
   }
 ];
 
