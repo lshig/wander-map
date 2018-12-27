@@ -1,4 +1,4 @@
-// contains modified classes from https://api.mapbox.com/mapbox-gl-js/v0.36.0/mapbox-gl.css
+// Contains modified classes from https://api.mapbox.com/mapbox-gl-js/v0.36.0/mapbox-gl.css
 
 .mapboxgl-popup {
   max-width: $popup-max-width-px;
@@ -11,41 +11,33 @@
 }
 
 .mapboxgl-popup-anchor-top .mapboxgl-popup-tip {
-  opacity: $primary-opacity-medium;
   border-bottom-color: $popup-achor-background-color;
 }
 
 .mapboxgl-popup-anchor-top-left .mapboxgl-popup-tip {
-  opacity: $primary-opacity-medium;
   border-bottom-color: $popup-achor-background-color;
 }
 
 .mapboxgl-popup-anchor-top-right .mapboxgl-popup-tip {
-  opacity: $primary-opacity-medium;
   border-bottom-color: $popup-achor-background-color;
 }
 
 .mapboxgl-popup-anchor-bottom .mapboxgl-popup-tip {
-  opacity: $primary-opacity-medium;
   border-top-color: $popup-achor-background-color;
 }
 
 .mapboxgl-popup-anchor-bottom-left .mapboxgl-popup-tip {
-  opacity: $primary-opacity-medium;
   border-top-color: $popup-achor-background-color;
 }
 
 .mapboxgl-popup-anchor-bottom-right .mapboxgl-popup-tip {
-  opacity: $primary-opacity-medium;
   border-top-color: $popup-achor-background-color;
 }
 
 .mapboxgl-popup-anchor-left .mapboxgl-popup-tip {
-  opacity: $primary-opacity-medium;
   border-right-color: $popup-achor-background-color;
 }
 
 .mapboxgl-popup-anchor-right .mapboxgl-popup-tip {
-  opacity: $primary-opacity-medium;
   border-left-color: $popup-achor-background-color;
 }

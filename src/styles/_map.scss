@@ -8,11 +8,11 @@
 
 .marker {
   background-color: $marker-background-color;
-  opacity: $primary-opacity-medium;
   width: $marker-diameter;
   height: $marker-diameter;
   border-radius: 50%;
   cursor: pointer;
+
   &.disabled {
     background-color: $marker-disable-background-color;
     cursor: default;
@@ -29,5 +29,4 @@
   margin: 0;
   line-height: 1.3;
   text-align: center;
-  opacity: $primary-opacity-medium;
 }

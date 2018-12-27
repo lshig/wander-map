@@ -1,62 +1,43 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.min.css");
-@import url("https://api.mapbox.com/mapbox-gl-js/v0.36.0/mapbox-gl.css");
+@import url("https://api.mapbox.com/mapbox-gl-js/v0.52.0/mapbox-gl.css");
 @import url("https://fonts.googleapis.com/css?family=Roboto+Mono:300,500,700");
 
-/** COLORS **/
-
-// Ladies Night 2 Theme
-// http://color-themes.com/?view=index
-$theme-pink:            #e784a2; // rgb(231,132,162)
-$theme-grey:            #e0e2e4; // rgb(224,226,228)
-$theme-yellow-light:    #e8e2b7; // rgb(232,226,183)
-$theme-blue-light:      #85b5c7; // rgb(133,181,199)
-$theme-black:           #21282d; // rgb(33,40,45)
-$theme-green:           #4cd656; // rgb(76,214,86)
-$theme-yellow-dark:     #ffcd22; // rgb(255,205,34)
-$theme-cyan:            #3cffff; // rgb(60,255,255)
-$theme-blue-dark:       #678cb1; // rgb(103,140,177)
+// Colors
+$theme-black:           #21282d;
+$theme-yellow-dark:     #ffcd22;
+$theme-blue-dark:       #678cb1;
+$theme-grey:            #aaaaaa;
+$theme-white:           #ffffff;
+$theme-black:           #3d3d3d;
 // http://teamcolorcodes.com/sacramento-kings-color-codes/
-$sacramento-black:      #000000; // rgb(0,0,0)
-$sacramento-white:      #ffffff; // rgb(255,255,255)
-$sacramento-grey:       #8e9090; // rgb(142,144,144)
-$sacramento-purple:     #724c9f; // rgb(114,76,159)
+$sacramento-black:      #000000;
+$sacramento-white:      #ffffff;
+$sacramento-grey:       #8e9090;
+$sacramento-purple:     #724c9f;
 // http://marketingtoolbox.ucdavis.edu/visual-identity/color.html
-$davis-blue:            #002855; // rgb(0,40,85)
-$davis-yellow:          #eaaa00; // rgb(218,170,0)
-// https://ceed.ucdavis.edu
-$eco-green:             #94bc46; // rgb(148,188,70)
-$eco-black:             #3d3d3d; // rgb(‎61,61,61)
-// neutrals
-$travel-grey:           #aaaaaa;
-$travel-white:          #eeeeee;
-$travel-black:          #3d3d3d;
-// http://teamcolorcodes.com/golden-state-warriors-color-codes/
-$warriors-blue:         #006bb6; // rgb(0,107,182)
-$warriors-yellow:       #fdb927; // rgb(253,185,39)
+$davis-blue:            #002855;
+$davis-yellow:          #eaaa00;
 
-// globals
-$min-width-px: 330px;
+// Globals
+$button-background-color: $theme-black;
+$button-font-color: $theme-white;
+$button-hover-font-color: $theme-yellow-dark;
+$link-font-color: $theme-black;
+$logo-background-color: $theme-yellow-dark;
+$marker-background-color: $theme-yellow-dark;
+$marker-diameter: 30px;
+$marker-disable-background-color: $theme-blue-dark;
 $min-height-px: 530px;
+$min-width-px: 330px;
+$popup-achor-background-color: $theme-black;
+$popup-background-color: $theme-yellow-dark;
+$popup-font-color: $theme-black;
+$popup-max-width-px: 200px;
 $primary-font-family: 'Roboto Mono', monospace;
 $primary-font-weight-light: 300;
 $primary-font-weight-medium: 500;
 $primary-opacity-high: 0.85;
-$primary-opacity-medium: 0.7;
 $primary-opacity-low: 0.5;
-$link-font-color: $theme-black;
-$button-font-color: $sacramento-white;
-$button-hover-font-color: $theme-pink;
-$button-background-color: $theme-black;
-$marker-diameter: 30px;
-$marker-background-color: $theme-yellow-dark;
-$marker-disable-background-color: $theme-blue-dark;
-$popup-background-color: $theme-yellow-dark;
-$popup-font-color: $theme-black;
-$popup-achor-background-color: $theme-black;
-$popup-max-width-px: 200px;
+$primary-opacity-medium: 0.7;
 
-// specifics
-// DIN Offc Pro, Arial Unicode MS
-$liz-background-color: $theme-yellow-dark;
-
-@import 'base','modify','nav','map';
+@import 'base','modify','navigation','map';

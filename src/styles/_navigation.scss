@@ -1,6 +1,6 @@
 #lizshigetoshi {
   position: absolute;
-  background-color: $liz-background-color;
+  background-color: $logo-background-color;
   text-transform: uppercase;
   top: 0;
   right: 0;
@@ -24,22 +24,22 @@
   }
 }
 
-#homeNavButton {
+#homeNavigationButton {
   top: 60px;
 }
 
-#almaMaterNavButton {
+#almaMaterNavigationButton {
   top: 100px;
 }
 
-#pastExpNavButton {
+#pastExpNavigationButton {
   top: 140px;
 }
 
-#travelNavButton {
+#currentExpNavigationButton {
   top: 180px;
 }
 
-#newAdventureNavButton {
+#travelNavigationButton {
   top: 220px;
 }
