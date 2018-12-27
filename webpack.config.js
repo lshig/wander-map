@@ -3,7 +3,7 @@ const path = require('path');
 const HTMLWebpackPlugin = require('html-webpack-plugin');
 
 const HTMLWebpackPluginConfig = new HTMLWebpackPlugin({
-  filename: 'index.html',
+  filename: path.join(__dirname, '/index.html'),
   inject: true,
   minify: {
     removeComments: true,
@@ -17,7 +17,6 @@ const HTMLWebpackPluginConfig = new HTMLWebpackPlugin({
     minifyCSS: true,
     minifyURLs: true
   },
-  path: __dirname,
   template: path.join(__dirname, '/src/index.html')
 });
 
