@@ -5,31 +5,26 @@ export const mapStyle = 'mapbox://styles/lizshig/cjptz4nvn6mnz2srtah5ssneu';
 export const navigationButtons = [
   {
     id: 'homeNavigationButton',
-    className: 'mapNavigation',
     hasPopup: true,
     label: '916 born-n-raised'
   },
   {
     id: 'almaMaterNavigationButton',
-    className: 'mapNavigation',
     hasPopup: true,
     label: 'earned a BS degree'
   },
   {
     id: 'pastExpNavigationButton',
-    className: 'mapNavigation',
     hasPopup: true,
     label: 'built web apps'
   },
   {
     id: 'travelNavigationButton',
-    className: 'mapNavigation',
     hasPopup: false,
     label: 'explored cultures'
   },
   {
     id: 'currentExpNavigationButton',
-    className: 'mapNavigation',
     hasPopup: true,
     label: 'builds apps and APIs'
   }

@@ -1,9 +1,9 @@
 import PropType from 'prop-types';
 import React from 'react';
 
-export default function NavigationButton({ id, className, onClick, label }) {
+export default function NavigationButton({ id, onClick, label }) {
   return (
-    <h3 id={id} className={className} onClick={onClick}>
+    <h3 className="mapNavigation" id={id} onClick={onClick}>
       {label}
     </h3>
   );
@@ -11,7 +11,6 @@ export default function NavigationButton({ id, className, onClick, label }) {
 
 NavigationButton.propTypes = {
   id: PropType.string.isRequired,
-  className: PropType.string.isRequired,
-  onClick: PropType.func,
-  label: PropType.string.isRequired
+  label: PropType.string.isRequired,
+  onClick: PropType.func.isRequired
 };

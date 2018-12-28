@@ -116,13 +116,12 @@ export default class MapboxMap extends Component {
     return navigationButtons.map((button, index) => {
       return (
         <NavigationButton
-          key={index}
           id={button.id}
-          className={button.className}
+          key={index}
+          label={button.label}
           onClick={e => {
             this.goToLocation(e.target.id, button.hasPopup);
           }}
-          label={button.label}
         />
       );
     });
