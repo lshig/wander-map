@@ -1,9 +1,11 @@
 module.exports = {
   clearMocks: true,
-  collectCoverageFrom: ['!<rootDir>/test/**'],
+  collectCoverageFrom: ['!src/index.js', 'src/**/*.js', '!test/**'],
   coverageReporters: ['html', 'text'],
-  setupFiles: ['<rootDir>/test/test-setup.js'],
+  setupFiles: ['<rootDir>/test/setup-tests.js'],
   testEnvironment: 'node',
-  testPathIgnorePatterns: ['/node_modules/'],
+  transform: {
+    '^.+.jsx?$': '<rootDir>/test/setup-jest.js'
+  },
   verbose: true
 };
