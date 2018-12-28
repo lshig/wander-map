@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NavigationButton basic renders 1`] = `
+<h3
+  className="mapNavigation"
+  id="foobar"
+  onClick={[MockFunction]}
+>
+  foobar-button
+</h3>
+`;
