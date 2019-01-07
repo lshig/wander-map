@@ -1,5 +1,5 @@
 import React from 'react';
-import MapboxMap from './MapboxMap';
+import EventMap from './EventMap';
 
 export default function App() {
   return (
@@ -11,7 +11,7 @@ export default function App() {
       >
         <h1 id="lizshigetoshi">Liz Shigetoshi</h1>
       </a>
-      <MapboxMap />
+      <EventMap />
     </section>
   );
 }
