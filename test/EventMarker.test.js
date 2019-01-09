@@ -1,13 +1,11 @@
 import { shallow } from 'enzyme';
 import React from 'react';
 import toJson from 'enzyme-to-json';
-import NavigationButton from '../src/components/NavigationButton';
+import EventMarker from '../src/components/EventMarker';
 
-describe('NavigationButton', () => {
+describe('EventMarker', () => {
   describe('basic', () => {
-    const wrapper = shallow(
-      <NavigationButton id="foobar" label="foobar-button" onClick={jest.fn()} />
-    );
+    const wrapper = shallow(<EventMarker />);
 
     test('renders', () => {
       expect(toJson(wrapper)).toMatchSnapshot();

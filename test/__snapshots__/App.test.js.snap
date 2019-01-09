@@ -13,6 +13,6 @@ exports[`App basic renders 1`] = `
       Liz Shigetoshi
     </h1>
   </a>
-  <MapboxMap />
+  <EventMap />
 </section>
 `;

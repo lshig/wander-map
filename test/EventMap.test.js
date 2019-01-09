@@ -1,10 +1,10 @@
 /**
  * @jest-environment jsdom
  */
-import React from 'react';
 import { shallow } from 'enzyme';
+import React from 'react';
 import toJson from 'enzyme-to-json';
-import MapboxMap from '../src/components/MapboxMap';
+import EventMap from '../src/components/EventMap';
 
 jest.mock('mapbox-gl', () => {
   return {
@@ -32,9 +32,9 @@ jest.mock('mapbox-gl', () => {
   };
 });
 
-describe('MapboxMap', () => {
+describe('EventMap', () => {
   describe('basic', () => {
-    const wrapper = shallow(<MapboxMap />);
+    const wrapper = shallow(<EventMap />);
 
     test('renders', () => {
       expect(toJson(wrapper)).toMatchSnapshot();

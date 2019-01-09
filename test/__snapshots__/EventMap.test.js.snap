@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`MapboxMap basic renders 1`] = `
+exports[`EventMap basic renders 1`] = `
 <div>
   <NavigationButton
     id="homeNavigationButton"
