@@ -1,5 +1,5 @@
 export const mapToken =
-  'pk.eyJ1IjoibGl6c2hpZyIsImEiOiJjajI2aWRwbHcwMGdwMnFvNWdyZzZkMnoxIn0.ijXLCu9J588oipJzYGOppg';
+  'pk.eyJ1IjoibGl6c2hpZyIsImEiOiJjanRyeTFzYmIwMXo2NDVtcGtmY3YwcHRiIn0.ng5KrX2YXX2e-6XUsNCavg';
 export const mapStyle = 'mapbox://styles/lizshig/cjptz4nvn6mnz2srtah5ssneu';
 
 export const navigationButtons = [
