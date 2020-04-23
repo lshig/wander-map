@@ -26,7 +26,7 @@ export const navigationButtons = [
   {
     id: 'currentExpNavigationButton',
     hasPopup: true,
-    label: 'builds apps and APIs'
+    label: 'built apps and APIs'
   }
 ];
 
@@ -100,5 +100,6 @@ export const markersUnion = [
   [-77.430452, 37.539813],
   [-84.385563, 33.790052],
   [-123.018027, 49.343915],
-  [-90.064369, 29.958412]
+  [-90.064369, 29.958412],
+  [-159.389121, 22.010863]
 ];

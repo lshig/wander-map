@@ -29,7 +29,7 @@ exports[`EventMap basic renders 1`] = `
   <NavigationButton
     id="currentExpNavigationButton"
     key="4"
-    label="builds apps and APIs"
+    label="built apps and APIs"
     onClick={[Function]}
   />
   <div

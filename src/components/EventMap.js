@@ -1,7 +1,6 @@
 import mapboxgl from 'mapbox-gl';
-import PropType from 'prop-types';
 import React, { Component } from 'react';
-import ReactDOM, { render } from 'react-dom';
+import { render } from 'react-dom';
 import EventMarker from './EventMarker';
 import EventPopup from './EventPopup';
 import NavigationButton from './NavigationButton';
@@ -34,7 +33,7 @@ export default class EventMap extends Component {
       container: 'map',
       style: mapStyle,
       center: popupMarkers.filter(
-        marker => marker.id === 'homeNavigationButton'
+        (marker) => marker.id === 'homeNavigationButton'
       )[0].location,
       bearing: 0,
       pitch: 0,
@@ -49,19 +48,13 @@ export default class EventMap extends Component {
 
   addEventMarkers = () => {
     if (this.map) {
-      const mapPopupMarkers = popupMarkers.map(marker => {
+      const mapPopupMarkers = popupMarkers.map((marker) => {
         const primaryMarker = document.createElement('div');
         const popupContent = document.createElement('div');
 
-        render(
-          <EventMarker />,
-          primaryMarker
-        );
+        render(<EventMarker />, primaryMarker);
 
-        render(
-          <EventPopup text={marker.text}/>,
-          popupContent
-        );
+        render(<EventPopup text={marker.text} />, popupContent);
 
         const primaryMarkerPopup = new mapboxgl.Popup({
           closeButton: false,
@@ -86,7 +79,7 @@ export default class EventMap extends Component {
 
   addDisabledMarkers = () => {
     if (this.map) {
-      markersUnion.map(location => {
+      markersUnion.map((location) => {
         const secondaryMarker = document.createElement('div');
 
         secondaryMarker.className = 'marker disabled';
@@ -109,7 +102,7 @@ export default class EventMap extends Component {
     // Based on ID, find map center location
     if (this.map) {
       if (hasPopup) {
-        const flyToLocation = mapPopupMarkers.filter(marker => {
+        const flyToLocation = mapPopupMarkers.filter((marker) => {
           const foundId = marker.id === id;
 
           if (foundId) {
@@ -143,7 +136,7 @@ export default class EventMap extends Component {
           id={button.id}
           key={index}
           label={button.label}
-          onClick={e => {
+          onClick={(e) => {
             this.goToLocation(e.target.id, button.hasPopup);
           }}
         />
