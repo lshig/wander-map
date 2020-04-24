@@ -1,6 +1,7 @@
 export const mapToken =
-  'pk.eyJ1IjoibGl6c2hpZyIsImEiOiJjanRyeTFzYmIwMXo2NDVtcGtmY3YwcHRiIn0.ng5KrX2YXX2e-6XUsNCavg';
-export const mapStyle = 'mapbox://styles/lizshig/cjptz4nvn6mnz2srtah5ssneu';
+  'pk.eyJ1IjoibGl6c2hpZ2V0b3NoaSIsImEiOiJjazllY3J6M2MwMHhrM2VtdWRiZDR0dThpIn0.arBkh_AIg74wQrH-LyPJSQ';
+export const mapStyle =
+  'mapbox://styles/lizshigetoshi/cjptysz6d6eww2ro91h5aqgyl';
 
 export const navigationButtons = [
   {
@@ -24,7 +25,7 @@ export const navigationButtons = [
     label: 'explored cultures'
   },
   {
-    id: 'currentExpNavigationButton',
+    id: 'recentExpNavigationButton',
     hasPopup: true,
     label: 'built apps and APIs'
   }
@@ -51,7 +52,7 @@ export const popupMarkers = [
     text: 'UC Davis: Energy Conservation Office'
   },
   {
-    id: 'currentExpNavigationButton',
+    id: 'recentExpNavigationButton',
     location: [-122.396286, 37.791293],
     anchorPosition: 'bottom',
     text: 'Mapbox'
