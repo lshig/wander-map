@@ -1,14 +1,14 @@
-@import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css");
-@import url("https://api.mapbox.com/mapbox-gl-js/v0.52.0/mapbox-gl.css");
-@import url("https://fonts.googleapis.com/css?family=Roboto+Mono:300,500,700");
+@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css');
+@import url('https://api.mapbox.com/mapbox-gl-js/v1.9.1/mapbox-gl.css');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:300,500');
 
 // Colors
-$theme-black:           #21282d;
-$theme-yellow-dark:     #ffcd22;
-$theme-blue-dark:       #678cb1;
-$theme-grey:            #aaaaaa;
-$theme-white:           #ffffff;
-$theme-black:           #3d3d3d;
+$theme-black: #21282d;
+$theme-yellow-dark: #ffcd22;
+$theme-blue-dark: #678cb1;
+$theme-grey: #aaa;
+$theme-white: #fff;
+$theme-black: #3d3d3d;
 
 // Globals
 $button-background-color: $theme-black;
@@ -32,4 +32,4 @@ $primary-opacity-high: 0.85;
 $primary-opacity-low: 0.5;
 $primary-opacity-medium: 0.7;
 
-@import 'base','modify','navigation','map';
+@import 'base', 'modify', 'navigation', 'map';

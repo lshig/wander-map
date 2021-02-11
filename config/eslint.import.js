@@ -1,5 +1,5 @@
 module.exports = {
-  extends: require.resolve('./eslint-base'),
+  extends: require.resolve('./eslint.base.js'),
   parserOptions: {
     sourceType: 'module'
   },

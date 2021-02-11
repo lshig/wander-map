@@ -2,6 +2,7 @@
 
 exports[`App basic renders 1`] = `
 <section>
+  <SEO />
   <a
     href="https://lizshigetoshi.com"
     rel="noopener noreferrer"
