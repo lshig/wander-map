@@ -1,0 +1,257 @@
+{
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Chicago",
+        "state": "Illinois",
+        "country": "United States of America"
+      },
+      "geometry": {
+        "coordinates": [-87.623151, 41.882658],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Seattle",
+        "state": "Washington",
+        "country": "United States of America"
+      },
+      "geometry": {
+        "coordinates": [-122.308688, 47.449945],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Carson City",
+        "state": "Nevada",
+        "country": "United States of America"
+      },
+      "geometry": {
+        "coordinates": [-119.769251, 39.172964],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Reno",
+        "state": "Nevada",
+        "country": "United States of America"
+      },
+      "geometry": {
+        "coordinates": [-119.813802, 39.529633],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "South Lake Tahoe",
+        "state": "Nevada",
+        "country": "United States of America"
+      },
+      "geometry": {
+        "coordinates": [-119.976369, 38.944978],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Las Vegas",
+        "state": "Nevada",
+        "country": "United States"
+      },
+      "geometry": {
+        "coordinates": [-115.153213, 36.084264],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Pheonix",
+        "state": "Arizona",
+        "country": "United States"
+      },
+      "geometry": {
+        "coordinates": [-112.073826, 33.446386],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Arlington",
+        "state": "Virginia",
+        "country": "United States of America"
+      },
+      "geometry": {
+        "coordinates": [-77.041433, 38.847974],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Washington, D.C.",
+        "state": "District of Columbia",
+        "country": "United States of America"
+      },
+      "geometry": {
+        "coordinates": [-77.036426, 38.898603],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Silver Springs",
+        "state": "Maryland",
+        "country": "United States of America"
+      },
+      "geometry": {
+        "coordinates": [-77.027418, 38.996319],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Bangor",
+        "state": "Maine",
+        "country": "United States of America"
+      },
+      "geometry": {
+        "coordinates": [-68.81441, 44.806981],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "New York City",
+        "state": "New York",
+        "country": "United States of America"
+      },
+      "geometry": {
+        "coordinates": [-74.006, 40.7128],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Albany",
+        "state": "New York",
+        "country": "United States of America"
+      },
+      "geometry": {
+        "coordinates": [-73.7562, 42.6526],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Portland",
+        "state": "Oregon",
+        "country": "United States of America"
+      },
+      "geometry": {
+        "coordinates": [-122.596081, 45.590242],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Ashland",
+        "state": "Oregon",
+        "country": "United States of America"
+      },
+      "geometry": {
+        "coordinates": [-122.716506, 42.1960573],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Richmond",
+        "state": "Virginia",
+        "country": "United States of America"
+      },
+      "geometry": {
+        "coordinates": [-77.430452, 37.539813],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Atlanta",
+        "state": "Georgia",
+        "country": "United States of America"
+      },
+      "geometry": {
+        "coordinates": [-84.385563, 33.790052],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "New Orleans",
+        "state": "Louisiana",
+        "country": "United States of America"
+      },
+      "geometry": {
+        "coordinates": [-90.064369, 29.958412],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Oahu",
+        "state": "Hawaii",
+        "country": "United States"
+      },
+      "geometry": {
+        "coordinates": [-157.924462, 21.324333],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Big Island",
+        "state": "Hawaii",
+        "country": "United States"
+      },
+      "geometry": {
+        "coordinates": [-156.01489, 19.729542],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Kauai",
+        "state": "Hawaii",
+        "country": "United States of America"
+      },
+      "geometry": {
+        "coordinates": [-159.389121, 22.010863],
+        "type": "Point"
+      }
+    }
+  ],
+  "type": "FeatureCollection"
+}

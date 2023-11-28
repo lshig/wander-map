@@ -1,0 +1,20 @@
+{
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Davis",
+        "state": "California",
+        "country": "United States of America",
+        "title": "UC Davis: Department of Computer Science",
+        "description": "Bachelor of Science in Computer Science, minor in Computational Biology",
+        "button": "education-button"
+      },
+      "geometry": {
+        "coordinates": [-121.754749, 38.536998],
+        "type": "Point"
+      }
+    }
+  ],
+  "type": "FeatureCollection"
+}

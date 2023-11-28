@@ -1,0 +1,50 @@
+{
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Davis",
+        "state": "California",
+        "country": "United States of America",
+        "title": "UC Davis: Department of Design",
+        "description": "Built hackathon prototype",
+        "button": "work-button"
+      },
+      "geometry": {
+        "coordinates": [-121.754046, 38.543541],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Davis",
+        "state": "California",
+        "country": "United States of America",
+        "title": "UC Davis: Energy Conservation Office",
+        "description": "Built web apps & data visualizations",
+        "button": "work-button"
+      },
+      "geometry": {
+        "coordinates": [-121.750728, 38.536076],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "San Francisco",
+        "state": "California",
+        "country": "United States of America",
+        "title": "Mapbox",
+        "description": "Built web apps, APIs, & tools",
+        "button": "work-button"
+      },
+      "geometry": {
+        "coordinates": [-122.396286, 37.791293],
+        "type": "Point"
+      }
+    }
+  ],
+  "type": "FeatureCollection"
+}

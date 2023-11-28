@@ -1,0 +1,197 @@
+{
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Vancouver",
+        "state": "British Columbia",
+        "country": "Canada"
+      },
+      "geometry": {
+        "coordinates": [-123.018027, 49.343915],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Saint John",
+        "state": "New Brunswick",
+        "country": "Canada"
+      },
+      "geometry": {
+        "coordinates": [-66.228192, 45.155179],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Madrid",
+        "state": "",
+        "country": "Spain"
+      },
+      "geometry": {
+        "coordinates": [-3.568016, 40.483561],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Paris",
+        "state": "",
+        "country": "France"
+      },
+      "geometry": {
+        "coordinates": [2.3522, 48.8566],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Mykonos",
+        "state": "",
+        "country": "Greece"
+      },
+      "geometry": {
+        "coordinates": [25.347933, 37.435035],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Athens",
+        "state": "",
+        "country": "Greece"
+      },
+      "geometry": {
+        "coordinates": [23.945974, 37.936262],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Venice",
+        "state": "",
+        "country": "Italy"
+      },
+      "geometry": {
+        "coordinates": [12.33956, 45.505033],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Rome",
+        "state": "",
+        "country": "Italy"
+      },
+      "geometry": {
+        "coordinates": [12.24641, 41.798999],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Marrakech",
+        "state": "",
+        "country": "Morocco"
+      },
+      "geometry": {
+        "coordinates": [-8.035881, 31.609807],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Hanoi",
+        "state": "",
+        "country": "Vietnam"
+      },
+      "geometry": {
+        "coordinates": [105.799122, 21.220325],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Taipei",
+        "state": "",
+        "country": "Taiwan"
+      },
+      "geometry": {
+        "coordinates": [121.234358, 25.078978],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Singapore",
+        "state": "",
+        "country": "Singapore"
+      },
+      "geometry": {
+        "coordinates": [103.985321, 1.349743],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Phuket",
+        "state": "",
+        "country": "Thailand"
+      },
+      "geometry": {
+        "coordinates": [98.30772, 8.110978],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Chiang Mai",
+        "state": "",
+        "country": "Thailand"
+      },
+      "geometry": {
+        "coordinates": [98.964144, 18.770007],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Bangkok",
+        "state": "",
+        "country": "Thailand"
+      },
+      "geometry": {
+        "coordinates": [100.750048, 13.688998],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Bali",
+        "state": "",
+        "country": "Indonesia"
+      },
+      "geometry": {
+        "coordinates": [115.167007, -8.748375],
+        "type": "Point"
+      }
+    }
+  ],
+  "type": "FeatureCollection"
+}

@@ -1,0 +1,929 @@
+{
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "West Sacramento",
+        "state": "California",
+        "country": "United States of America"
+      },
+      "geometry": {
+        "coordinates": [-121.541199, 38.58046],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Clarksburg",
+        "state": "California",
+        "country": "United States of America"
+      },
+      "geometry": {
+        "coordinates": [-121.526613, 38.416513],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Isleton",
+        "state": "California",
+        "country": "United States of America"
+      },
+      "geometry": {
+        "coordinates": [-121.611613, 38.16046],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Elk Grove",
+        "state": "California",
+        "country": "United States of America"
+      },
+      "geometry": {
+        "coordinates": [-121.371617, 38.408799],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Folsom",
+        "state": "California",
+        "country": "United States of America"
+      },
+      "geometry": {
+        "coordinates": [-121.176058, 38.677958],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Yuba City",
+        "state": "California",
+        "country": "United States of America"
+      },
+      "geometry": {
+        "coordinates": [-121.616911, 39.140447],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Eldorado Hills",
+        "state": "California",
+        "country": "United States of America"
+      },
+      "geometry": {
+        "coordinates": [-121.082346, 38.685736],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Roseville",
+        "state": "California",
+        "country": "United States of America"
+      },
+      "geometry": {
+        "coordinates": [-121.28801, 38.752124],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Citrus Heights",
+        "state": "California",
+        "country": "United States of America"
+      },
+      "geometry": {
+        "coordinates": [-121.281061, 38.707125],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Auburn",
+        "state": "California",
+        "country": "United States of America"
+      },
+      "geometry": {
+        "coordinates": [-121.077583, 38.896564],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Rancho Cordova",
+        "state": "California",
+        "country": "United States of America"
+      },
+      "geometry": {
+        "coordinates": [-121.297072, 38.589072],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Woodland",
+        "state": "California",
+        "country": "United States of America"
+      },
+      "geometry": {
+        "coordinates": [-121.773297, 38.678516],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Dixon",
+        "state": "California",
+        "country": "United States of America"
+      },
+      "geometry": {
+        "coordinates": [-121.823296, 38.445464],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Winters",
+        "state": "California",
+        "country": "United States of America"
+      },
+      "geometry": {
+        "coordinates": [-121.970959, 38.524907],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Lodi",
+        "state": "California",
+        "country": "United States of America"
+      },
+      "geometry": {
+        "coordinates": [-121.272219, 38.134148],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Antioch",
+        "state": "California",
+        "country": "United States of America"
+      },
+      "geometry": {
+        "coordinates": [-121.805789, 38.004921],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Brentwood",
+        "state": "California",
+        "country": "United States of America"
+      },
+      "geometry": {
+        "coordinates": [-121.695786, 37.931868],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Vacaville",
+        "state": "California",
+        "country": "United States of America"
+      },
+      "geometry": {
+        "coordinates": [-121.987744, 38.356579],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Manteca",
+        "state": "California",
+        "country": "United States of America"
+      },
+      "geometry": {
+        "coordinates": [-121.216052, 37.79743],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Fairfield",
+        "state": "California",
+        "country": "United States of America"
+      },
+      "geometry": {
+        "coordinates": [-122.039966, 38.249358],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Vallejo",
+        "state": "California",
+        "country": "United States of America"
+      },
+      "geometry": {
+        "coordinates": [-122.256636, 38.104086],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "San Ramon",
+        "state": "California",
+        "country": "United States of America"
+      },
+      "geometry": {
+        "coordinates": [-121.978015, 37.779928],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Petaluma",
+        "state": "California",
+        "country": "United States of America"
+      },
+      "geometry": {
+        "coordinates": [-122.636653, 38.232417],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Santa Rosa",
+        "state": "California",
+        "country": "United States of America"
+      },
+      "geometry": {
+        "coordinates": [-122.714058, 38.440467],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Napa",
+        "state": "California",
+        "country": "United States of America"
+      },
+      "geometry": {
+        "coordinates": [-122.286865, 38.297538],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "San Leandro",
+        "state": "California",
+        "country": "United States of America"
+      },
+      "geometry": {
+        "coordinates": [-122.156077, 37.72493],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Treasure Island",
+        "state": "California",
+        "country": "United States of America"
+      },
+      "geometry": {
+        "coordinates": [-122.370804, 37.823354],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Alameda",
+        "state": "California",
+        "country": "United States of America"
+      },
+      "geometry": {
+        "coordinates": [-122.241635, 37.765206],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Emeryville",
+        "state": "California",
+        "country": "United States of America"
+      },
+      "geometry": {
+        "coordinates": [-122.289542, 37.831316],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Daly City",
+        "state": "California",
+        "country": "United States of America"
+      },
+      "geometry": {
+        "coordinates": [-122.478685, 37.687924],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Richmond",
+        "state": "California",
+        "country": "United States of America"
+      },
+      "geometry": {
+        "coordinates": [-122.347749, 37.935758],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "El Cerrito",
+        "state": "California",
+        "country": "United States of America"
+      },
+      "geometry": {
+        "coordinates": [-122.302191, 37.915762],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Lafayette",
+        "state": "California",
+        "country": "United States of America"
+      },
+      "geometry": {
+        "coordinates": [-122.118019, 37.885758],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Piedmont",
+        "state": "California",
+        "country": "United States of America"
+      },
+      "geometry": {
+        "coordinates": [-122.226844, 37.824372],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Walnut Creek",
+        "state": "California",
+        "country": "United States of America"
+      },
+      "geometry": {
+        "coordinates": [-122.065182, 37.910078],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Pleasant Hill",
+        "state": "California",
+        "country": "United States of America"
+      },
+      "geometry": {
+        "coordinates": [-122.060796, 37.947978],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Fremont",
+        "country": "United States",
+        "state": "California"
+      },
+      "geometry": {
+        "coordinates": [-121.988572, 37.548269],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "San Jose",
+        "country": "United States",
+        "state": "California"
+      },
+      "geometry": {
+        "coordinates": [-121.886329, 37.338208],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "San Mateo",
+        "country": "United States",
+        "state": "California"
+      },
+      "geometry": {
+        "coordinates": [-122.32553, 37.562992],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Palo Alto",
+        "country": "United States",
+        "state": "California"
+      },
+      "geometry": {
+        "coordinates": [-122.14302, 37.441883],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Mountain View",
+        "country": "United States",
+        "state": "California"
+      },
+      "geometry": {
+        "coordinates": [-122.083851, 37.386052],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Redwood City",
+        "country": "United States",
+        "state": "California"
+      },
+      "geometry": {
+        "coordinates": [-122.236354, 37.485217],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Cupertino",
+        "country": "United States",
+        "state": "California"
+      },
+      "geometry": {
+        "coordinates": [-122.032182, 37.322998],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Sunnyvale",
+        "country": "United States",
+        "state": "California"
+      },
+      "geometry": {
+        "coordinates": [-122.03635, 37.36883],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Santa Clara",
+        "country": "United States",
+        "state": "California"
+      },
+      "geometry": {
+        "coordinates": [-121.955236, 37.354108],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Pleasanton",
+        "country": "United States",
+        "state": "California"
+      },
+      "geometry": {
+        "coordinates": [-121.874678, 37.662431],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Livermore",
+        "country": "United States",
+        "state": "California"
+      },
+      "geometry": {
+        "coordinates": [-121.768008, 37.681874],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Oakland",
+        "country": "United States",
+        "state": "California"
+      },
+      "geometry": {
+        "coordinates": [-122.271114, 37.804363],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Berkeley",
+        "country": "United States",
+        "state": "California"
+      },
+      "geometry": {
+        "coordinates": [-122.272747, 37.871593],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Pacifica",
+        "country": "United States",
+        "state": "California"
+      },
+      "geometry": {
+        "coordinates": [-122.486919, 37.613825],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Half Moon Bay",
+        "country": "United States",
+        "state": "California"
+      },
+      "geometry": {
+        "coordinates": [-122.434051, 37.463553],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Santa Cruz",
+        "state": "California",
+        "country": "United States of America"
+      },
+      "geometry": {
+        "coordinates": [-122.030796, 36.974117],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Stockton",
+        "state": "California",
+        "country": "United States of America"
+      },
+      "geometry": {
+        "coordinates": [-121.308726, 37.981446],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Monterey",
+        "state": "California",
+        "country": "United States of America"
+      },
+      "geometry": {
+        "coordinates": [-121.901691, 36.617711],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Los Angeles",
+        "country": "United States",
+        "state": "California"
+      },
+      "geometry": {
+        "coordinates": [-118.243685, 34.052234],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Beverly Hills",
+        "country": "United States",
+        "state": "California"
+      },
+      "geometry": {
+        "coordinates": [-118.400356, 34.07362],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Culver City",
+        "country": "United States",
+        "state": "California"
+      },
+      "geometry": {
+        "coordinates": [-118.396466, 34.021122],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Inglewood",
+        "country": "United States",
+        "state": "California"
+      },
+      "geometry": {
+        "coordinates": [-118.353131, 33.96168],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Malibu",
+        "country": "United States",
+        "state": "California"
+      },
+      "geometry": {
+        "coordinates": [-118.778611, 34.025922],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Burbank",
+        "country": "United States",
+        "state": "California"
+      },
+      "geometry": {
+        "coordinates": [-118.308966, 34.180839],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "San Diego",
+        "country": "United States",
+        "state": "California"
+      },
+      "geometry": {
+        "coordinates": [-117.161087, 32.715738],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Merced",
+        "country": "United States",
+        "state": "California"
+      },
+      "geometry": {
+        "coordinates": [-120.482967, 37.302163],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Fresno",
+        "country": "United States",
+        "state": "California"
+      },
+      "geometry": {
+        "coordinates": [-119.772586, 36.746842],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Bakersfield",
+        "country": "United States",
+        "state": "California"
+      },
+      "geometry": {
+        "coordinates": [-119.103308, 35.348567],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Santa Barbara",
+        "state": "California",
+        "country": "United States of America"
+      },
+      "geometry": {
+        "coordinates": [-119.848091, 34.410414],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Long Beach",
+        "state": "California",
+        "country": "United States of America"
+      },
+      "geometry": {
+        "coordinates": [-118.193739, 33.77005],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Santa Monica",
+        "state": "California",
+        "country": "United States of America"
+      },
+      "geometry": {
+        "coordinates": [-118.49741, 34.008088],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Anahiem",
+        "state": "California",
+        "country": "United States of America"
+      },
+      "geometry": {
+        "coordinates": [-117.914301, 33.835293],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Irvine",
+        "state": "California",
+        "country": "United States of America"
+      },
+      "geometry": {
+        "coordinates": [-117.826504, 33.684567],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "San Bernardino",
+        "state": "California",
+        "country": "United States of America"
+      },
+      "geometry": {
+        "coordinates": [-117.242875, 34.101986],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "San Luis Obispo",
+        "state": "California",
+        "country": "United States of America"
+      },
+      "geometry": {
+        "coordinates": [-120.659615, 35.282752],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Ukiah",
+        "state": "California",
+        "country": "United States of America"
+      },
+      "geometry": {
+        "coordinates": [-123.161263, 39.13269],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Manhattan Beach",
+        "state": "California",
+        "country": "United States of America"
+      },
+      "geometry": {
+        "coordinates": [-118.410908, 33.884736],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Torrance",
+        "state": "California",
+        "country": "United States of America"
+      },
+      "geometry": {
+        "coordinates": [-118.340628, 33.835849],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Huntington Beach",
+        "state": "California",
+        "country": "United States of America"
+      },
+      "geometry": {
+        "coordinates": [-118.010717, 33.660297],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Ranchos Palos Verdes",
+        "state": "California",
+        "country": "United States of America"
+      },
+      "geometry": {
+        "coordinates": [-118.387017, 33.744461],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Twentynine Palms",
+        "state": "California",
+        "country": "United States of America"
+      },
+      "geometry": {
+        "coordinates": [-116.060709, 34.135558],
+        "type": "Point"
+      }
+    }
+  ],
+  "type": "FeatureCollection"
+}

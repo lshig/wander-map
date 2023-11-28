@@ -1,0 +1,20 @@
+{
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Sacramento",
+        "state": "California",
+        "country": "United States",
+        "title": "🦁",
+        "description": "916 born-and-raised",
+        "button": "home-button"
+      },
+      "geometry": {
+        "coordinates": [-121.4996269, 38.5801278],
+        "type": "Point"
+      }
+    }
+  ],
+  "type": "FeatureCollection"
+}

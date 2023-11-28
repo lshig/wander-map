@@ -1,0 +1,57 @@
+{
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Yosemite Valley",
+        "state": "California",
+        "country": "United States",
+        "title": "Yosemite National Park"
+      },
+      "geometry": {
+        "coordinates": [-119.534026, 37.858427],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Drakesbad",
+        "state": "California",
+        "country": "United States of America",
+        "title": "Lassen Volcanic National Park"
+      },
+      "geometry": {
+        "coordinates": [-121.499425, 40.459621],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Arnold",
+        "state": "California",
+        "country": "United States of America",
+        "title": "Calaveras Big Trees State Park"
+      },
+      "geometry": {
+        "coordinates": [-120.270833, 38.271944],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Burney",
+        "state": "California",
+        "country": "United States of America",
+        "title": "McArthur-Burney Falls Memorial State Park"
+      },
+      "geometry": {
+        "coordinates": [-121.6581311, 41.0147128],
+        "type": "Point"
+      }
+    }
+  ],
+  "type": "FeatureCollection"
+}
