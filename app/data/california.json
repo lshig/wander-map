@@ -75,6 +75,18 @@
     {
       "type": "Feature",
       "properties": {
+        "city": "Chico",
+        "state": "California",
+        "country": "United States of America"
+      },
+      "geometry": {
+        "coordinates": [-121.837477, 39.728494],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "city": "Eldorado Hills",
         "state": "California",
         "country": "United States of America"

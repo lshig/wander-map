@@ -8,7 +8,7 @@
         "country": "United States",
         "title": "🦁",
         "description": "916 born-and-raised",
-        "button": "home-button"
+        "controlId": "home-control-button"
       },
       "geometry": {
         "coordinates": [-121.4996269, 38.5801278],

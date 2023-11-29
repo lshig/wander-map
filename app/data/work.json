@@ -8,7 +8,7 @@
         "country": "United States of America",
         "title": "UC Davis: Department of Design",
         "description": "Built hackathon prototype",
-        "button": "work-button"
+        "controlId": "work-control-button"
       },
       "geometry": {
         "coordinates": [-121.754046, 38.543541],
@@ -23,7 +23,7 @@
         "country": "United States of America",
         "title": "UC Davis: Energy Conservation Office",
         "description": "Built web apps & data visualizations",
-        "button": "work-button"
+        "controlId": "work-control-button"
       },
       "geometry": {
         "coordinates": [-121.750728, 38.536076],
@@ -38,7 +38,7 @@
         "country": "United States of America",
         "title": "Mapbox",
         "description": "Built web apps, APIs, & tools",
-        "button": "work-button"
+        "controlId": "work-control-button"
       },
       "geometry": {
         "coordinates": [-122.396286, 37.791293],

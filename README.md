@@ -9,21 +9,16 @@
 - Install [nvm](https://github.com/nvm-sh/nvm) and run `nvm use` to run a stable version of Node.js + npm within the project
 - Set up `.env.local` file with development restricted Mapbox access token
 - Run `npm run dev` to open development at `http://localhost:3000/wander-map`
+- Run `npm run format` to format and write `*.js`, `*.scss`, `*.css`, and `*.md` files with [Prettier](https://prettier.io/)
+- Run `npm run lint` to determine if there are simple errors according to [ESLint](https://eslint.org/), [Stylelint](https://stylelint.io/), and [Remark](https://github.com/remarkjs/remark-lint)
 - Run `npm run build` to build production files to `out/` folder
-- Set up production with production restricted Mapbox access token and GitHub Actions workflow to deploy `main` branch to `gh-pages` branch for [live](https://lizshigetoshi.com/wander-map/)
+- Set up GitHub Pages with production restricted Mapbox access token secret and GitHub Actions workflow to deploy `main` branch for [live](https://lizshigetoshi.com/wander-map/)
 
 ## Flavors
 
-- [Next.js](https://nextjs.org/)
 - [React](https://react.dev/)
 - [TypeScript](https://www.typescriptlang.org/)
-- [ESLint](https://eslint.org/)
-- [Prettier](https://prettier.io/)
-- [Stylelint](https://stylelint.io/)
-- [PostCSS](https://postcss.org/)
-- [Remark](https://github.com/remarkjs/remark-lint)
-- Run `npm run format` to format and write `*.js`, `*.scss`, `*.css`, and `*.md` files with Prettier
-- Run `npm run lint` to determine if there are simple errors according to ESLint, Stylelint, and Remark
+- [Next.js](https://nextjs.org/)
 
 ## Credits
 

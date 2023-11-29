@@ -1,25 +1,19 @@
 import type { Metadata } from 'next';
-import { Roboto } from 'next/font/google';
+import type { ReactNode } from 'react';
+import { roboto_mono } from './util/fonts';
 import './globals.css';
 
-const roboto = Roboto({
-  weight: ['300', '500', '700'],
-  subsets: ['latin']
-});
-
 export const metadata: Metadata = {
-  title: 'Wander map',
+  title: 'wander-map',
   description: 'Adventures on a map'
 };
 
-export default function RootLayout({
-  children
-}: {
-  children: React.ReactNode;
-}) {
+export default function RootLayout({ children }: { children: ReactNode }) {
   return (
-    <html lang="en">
-      <body className={roboto.className}>{children}</body>
+    <html lang="en" className="h-full w-full p0 m0">
+      <body className={`h-full w-full p0 m0 ${roboto_mono.className}`}>
+        {children}
+      </body>
     </html>
   );
 }

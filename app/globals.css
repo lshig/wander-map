@@ -2,64 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-html,
-body {
-  font-family: "Roboto Mono", monospace;
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-.loader-page {
-  background-color: #f2eee8;
-  color: #1a1a1a;
-}
-
-.loader-page h1 {
-  font-size: 1.5em;
-  letter-spacing: 0.2em;
-  line-height: 1.2em;
-}
-
-.loader-page h2 {
-  font-size: 1em;
-  letter-spacing: 0.2em;
-  line-height: 1.2em;
-}
-
-.marker {
-  border-radius: 50%;
-  cursor: pointer;
-  height: 15px;
-  opacity: 0.6 !important;
-  width: 15px;
-}
-
-.marker.home {
-  background-color: #5a2d81;
-}
-
-.marker.work {
-  background-color: #2e8b57;
-}
-
-.marker.education {
-  background-color: #ffcd22;
-}
-
-.marker.travel {
-  background-color: #678cb1;
-}
-
+/* Overwrite Mapbox classes */
 .mapboxgl-popup-content {
   margin: 0 !important;
   padding: 5px 10px !important;
   background: rgb(255 255 255 / 70%) !important;
+  border-radius: 4px !important;
 }
 
 .mapboxgl-popup-anchor-top .mapboxgl-popup-tip,
@@ -80,96 +28,4 @@ body {
 
 .mapboxgl-popup-anchor-right .mapboxgl-popup-tip {
   border-left-color: rgb(255 255 255 / 70%) !important;
-}
-
-.popup {
-  color: #1a1a1a;
-  font-family: "Roboto Mono", monospace;
-  font-size: 0.9em;
-  font-weight: 500;
-  letter-spacing: 0.2em;
-  line-height: 1.3em;
-  margin: 0;
-  max-width: 140px;
-  text-align: center;
-  text-transform: uppercase;
-}
-
-.popup.emoji {
-  font-size: 2em;
-}
-
-#lizshigetoshi {
-  background-color: #fff;
-  color: #3d3d3d;
-  font-size: 1.6em;
-  font-weight: 700;
-  text-transform: uppercase;
-}
-
-.map-navigation {
-  background-color: #3d3d3d;
-  color: #fff;
-  font-size: 1.2em;
-  font-weight: 300;
-  opacity: 0.8;
-}
-
-.map-navigation,
-#lizshigetoshi {
-  border-radius: 3px 0 0 3px;
-  display: inline-block;
-  font-family: "Roboto Mono", monospace;
-  line-height: 1.5;
-  margin: 10px 0;
-  padding: 4px 8px;
-  position: absolute;
-  right: 0;
-  z-index: 1;
-}
-
-.map-navigation:hover,
-#lizshigetoshi:hover {
-  cursor: pointer;
-  letter-spacing: 1px;
-}
-
-.map-navigation:hover {
-  font-weight: 700;
-}
-
-#work-button {
-  top: 60px;
-}
-
-#work-button:hover {
-  background-color: #2e8b57;
-  color: #fff;
-}
-
-#education-button {
-  top: 100px;
-}
-
-#education-button:hover {
-  background-color: #ffcd22;
-  color: #3d3d3d;
-}
-
-#travel-button {
-  top: 140px;
-}
-
-#travel-button:hover {
-  background-color: #678cb1;
-  color: #fff;
-}
-
-#home-button {
-  top: 180px;
-}
-
-#home-button:hover {
-  background-color: #5a2d81;
-  color: #fff;
 }

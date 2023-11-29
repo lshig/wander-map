@@ -8,7 +8,7 @@
         "country": "United States of America",
         "title": "UC Davis: Department of Computer Science",
         "description": "Bachelor of Science in Computer Science, minor in Computational Biology",
-        "button": "education-button"
+        "controlId": "education-control-button"
       },
       "geometry": {
         "coordinates": [-121.754749, 38.536998],
